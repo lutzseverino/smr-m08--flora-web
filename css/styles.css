@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #fff;
+}
+
+body {
+    background: none;
+}
+
+a {
+    background-color: transparent;
 }
 
 li, a {
@@ -69,20 +78,83 @@ header {
     transform: scaleX(1);
 }
 
-button {
+.button {
     padding: 9px 25px;
     background-color: rgba(88, 101, 242, 1);
     border: none;
     border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    height: 50px;
+    width: 211.933px;
 }
 
-button:hover {
+.button:hover {
     background-color: rgba(88, 101, 242, 0.9);
     transform: scale(1.05);
 }
 
-button:active {
+.button:active {
     transform: scale(0.98);
+}
+
+.button2 {
+    padding: 9px 25px;
+    background-color: rgba(0, 0, 0, 1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    height: 50px;
+    width: 211.933px;
+}
+
+.button2:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    transform: scale(1.05);
+}
+
+.button2:active {
+    transform: scale(0.98);
+}
+
+.call-to-action {
+    background-image: url(../images/decor.svg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: 540px;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+
+.slogan {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 64px;
+    background-color: transparent;
+    height: 180px;
+    width: 1102px;
+}
+
+.slogan {
+    white-space: pre-line;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slogan span {
+    color: rgba(0, 0, 0, .2);
+    background-color: transparent;
+}
+
+.buttons {
+    position: relative;
+    text-align: center;
+    background-color: transparent;
+    top: 30%;
 }
