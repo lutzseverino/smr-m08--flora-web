@@ -1,14 +1,15 @@
 @charset "utf8";
 
-/* Import used fonts */
+/* Import fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
-/* Import every CSS file */
+/* Import CSS files */
 
-@import url(colors.css);
+@import url(theme.css);
 @import url(components.css);
+@import url(flex.css);
 
 /* CSS document */
 
@@ -33,40 +34,40 @@ a {
 li,
 a {
     font-family: 'Exo', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
     color: black;
     text-decoration: none;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 30px 340px;
+    padding: 5px;
 }
 
 .logo {
     cursor: pointer;
+    scale: .7;
 }
 
-.nav-links {
+.links {
     list-style: none;
     display: table;
 }
 
-.nav-links li a {
+.links li a {
     text-decoration: none;
     position: relative;
     display: block;
+    font-size: 1rem;
 }
 
-.nav-links li {
+.links li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.nav-links li a:after {
+.links li a:after {
     content: "";
     position: absolute;
     left: 0px;
@@ -75,22 +76,26 @@ header {
     height: 2px;
     background-color: black;
     transform-origin: bottom center;
-    transition: transform 0.1s ease 0s;
+    transition: 0.1s ease 0s;
     transform: scaleX(0);
 }
 
-.nav-links li a:hover::after {
+.links li a:hover::after {
     color: var(--blue);
     transform-origin: bottom center;
     transform: scaleX(1);
 }
 
 .call-to-action {
+    border: 1px red solid;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-image: url(../images/decor.svg);
     background-repeat: no-repeat;
-    background-color: white;
-    height: 540px;
-    width: 100%;
     background-position: center;
     position: relative;
     text-align: center;
@@ -98,30 +103,24 @@ header {
 
 .slogan {
     font-family: 'Krona One', sans-serif;
-    font-weight: 400;
     color: black;
-    font-size: 64px;
     background-color: transparent;
-    height: 180px;
-    width: 1102px;
-}
-
-.slogan {
-    white-space: pre-line;
-    position: relative;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-bottom: 30px;
+    width: 70%;
+    border: solid 1px green;
 }
 
 .slogan span {
-    color: rgba(0, 0, 0, .2);
+    opacity: .2;
     background-color: transparent;
 }
 
 .buttons {
-    position: relative;
+    width: clamp(300px, 25%, 400px);
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
     background-color: transparent;
-    top: 30%;
 }
