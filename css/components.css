@@ -41,3 +41,18 @@ h2 {
     font-size: 2.5rem;
     background-color: transparent;
 }
+
+
+/* Styles sections */
+
+[section~="default"] {
+    height: 400px;
+}
+
+[section~="small"] {
+    height: 300px;
+}
+
+[section~="large"] {
+    height: 500px;
+}
