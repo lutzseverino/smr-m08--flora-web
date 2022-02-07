@@ -13,30 +13,50 @@
     --red: #ED4245;
 }
 
-.--blue {
+.blue {
     background-color: var(--blue);
 }
 
-.--green {
+.green {
     background-color: var(--green);
 }
 
-.--yellow {
+.yellow {
     background-color: var(--yellow);
 }
 
-.--pink {
+.pink {
     background-color: var(--pink);
 }
 
-.--red {
+.red {
     background-color: var(--red);
 }
 
-.--black {
+.black {
     background-color: black;
 }
 
-.--white {
+.white {
     background-color: white;
+}
+
+.accent-color {
+    background-color: var(--blue);
+}
+
+.error-color {
+    background-color: var(--red);
+}
+
+.default-component-color {
+    background-color: black;
+}
+
+.background-color {
+    background-color: white;
+}
+
+.rounded {
+    border-radius: 500px;
 }
