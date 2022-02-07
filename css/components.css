@@ -8,8 +8,27 @@
 
 /* Styles buttons */
 
+button {
+    height: 50px;
+    width: clamp(150px, 200px, 250px);
+    padding: 9px 25px;
+    border-radius: 30px;
+    border: unset;
+    font-family: 'Exo', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
 
-/* TODO*/
+button:hover {
+    opacity: .9;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(.98);
+}
 
 
 /* Styles titles */
