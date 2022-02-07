@@ -6,6 +6,10 @@
 /* Provides the color palette */
 
 :root {
+    --round-value: 500px;
+    --accent-color: #5865F2;
+    --error-color: #ED4245;
+    --default-component-color: black;
     --blue: #5865F2;
     --green: #57F287;
     --yellow: #FEE75C;
@@ -42,15 +46,15 @@
 }
 
 .accent-color {
-    background-color: var(--blue);
+    background-color: var(--accent-color);
 }
 
 .error-color {
-    background-color: var(--red);
+    background-color: var(--error-color);
 }
 
 .default-component-color {
-    background-color: black;
+    background-color: var(--default-component-color);
 }
 
 .background-color {
@@ -58,5 +62,5 @@
 }
 
 .rounded {
-    border-radius: 500px;
+    border-radius: var(--round-value);
 }
