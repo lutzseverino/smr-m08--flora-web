@@ -12,3 +12,31 @@
     --pink: #EB459E;
     --red: #ED4245;
 }
+
+.--blue {
+    background-color: var(--blue);
+}
+
+.--green {
+    background-color: var(--green);
+}
+
+.--yellow {
+    background-color: var(--yellow);
+}
+
+.--pink {
+    background-color: var(--pink);
+}
+
+.--red {
+    background-color: var(--red);
+}
+
+.--black {
+    background-color: black;
+}
+
+.--white {
+    background-color: white;
+}
