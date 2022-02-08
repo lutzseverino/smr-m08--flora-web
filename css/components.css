@@ -6,10 +6,10 @@
 /* Styles website components */
 
 
-/* Styles buttons */
+/* Buttons */
 
 button {
-    padding: 9px 25px;
+    padding: 0.5rem 1rem;
     border: unset;
     font-family: 'Exo', sans-serif;
     font-size: 1rem;
@@ -28,7 +28,7 @@ button:active {
 }
 
 
-/* Styles titles */
+/* Titles */
 
 h1 {
     font-family: 'Krona One', sans-serif;
@@ -46,13 +46,16 @@ h2 {
 /* Styles sections */
 
 [section~="default"] {
-    height: 400px;
+    padding-top: 7.50rem;
+    padding-bottom: 7.50rem;
 }
 
 [section~="small"] {
-    height: 300px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 [section~="large"] {
-    height: 500px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
