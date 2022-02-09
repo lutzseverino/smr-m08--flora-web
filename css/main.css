@@ -41,7 +41,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .3rem 5rem .3rem 5rem;
+    padding: 1rem 5rem 1rem 5rem;
 }
 
 .logo {
@@ -49,24 +49,18 @@ nav {
 }
 
 .links {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     list-style: none;
-    display: table;
+}
+
+.links li {
+    display: inline;
+    padding: 0 1rem;
 }
 
 .links li a {
     text-decoration: none;
     position: relative;
-    display: block;
     font-size: 1rem;
-}
-
-.links li {
-    display: inline-block;
-    padding: 0px 20px;
 }
 
 .links li a:after {
@@ -91,7 +85,6 @@ nav {
 .headline {
     border: 1px red solid;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     background-image: url(../images/decor.svg);
