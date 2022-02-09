@@ -124,3 +124,8 @@ nav {
     text-align: center;
     background-color: transparent;
 }
+
+.full-box {
+    display: flex;
+    justify-content: center;
+}
