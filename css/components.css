@@ -9,6 +9,7 @@
     background-color: transparent;
 }
 
+
 /* Buttons */
 
 button {
@@ -31,20 +32,25 @@ button:active {
 }
 
 
-/* Titles */
+/* Text */
 
-h1 {
-    font-family: 'Krona One', sans-serif;
-    font-size: 3rem;
-    background-color: transparent;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
+    background-color: transparent;
+    font-family: 'Exo', sans-serif;
 }
 
-h2, h3, h4, h5, h6, p {
-    font-family: 'Exo', sans-serif;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
+h1 {
+    /* Will override previous font family */
+    font-family: 'Krona One', sans-serif;
+    font-size: 3rem;
 }
 
 h2 {
@@ -65,8 +71,9 @@ h5 {
 
 h6 {
     font-size: 0.8rem;
-    opacity: .8;
+    opacity: .6;
 }
+
 
 /* Styles sections */
 
@@ -85,6 +92,14 @@ h6 {
     padding-bottom: 10rem;
 }
 
-.text-box {
+[section~="text"] {
     width: 70ch;
+}
+
+
+/* Provides common flex components */
+
+.horizontal-flex {
+    display: flex;
+    justify-content: center;
 }
