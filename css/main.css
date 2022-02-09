@@ -15,11 +15,13 @@
 
 /* Provides additional styling */
 
+
+/* General purpose */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: white;
 }
 
 body {
@@ -36,6 +38,12 @@ a {
     color: black;
     text-decoration: none;
 }
+
+
+/* Common website components */
+
+
+/* Navbar */
 
 nav {
     display: flex;
@@ -82,16 +90,32 @@ nav {
     transform: scaleX(1);
 }
 
-.headline {
-    border: 1px red solid;
-    display: flex;
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+}
+
+.footer-navigation {
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+
+/* Call-to-action headline */
+
+.headline {
+    align-items: center;
     background-image: url(../images/decor.svg);
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
     text-align: center;
+    /* Temporary border */
+    border: 1px solid red;
 }
 
 .slogan {
@@ -100,7 +124,8 @@ nav {
     background-color: transparent;
     margin-bottom: 30px;
     width: 70%;
-    border: solid 1px green;
+    /* Temporary border */
+    border: 1px solid green;
 }
 
 .slogan span {
@@ -110,15 +135,10 @@ nav {
 
 .actions {
     width: clamp(300px, 25%, 400px);
-    border: 1px solid red;
-    display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     background-color: transparent;
-}
-
-.full-box {
-    display: flex;
-    justify-content: center;
+    /* Temporary border */
+    border: 1px solid red;
 }
