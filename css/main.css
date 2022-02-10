@@ -130,8 +130,6 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    /* Temporary border */
-    border: 1px solid red;
 }
 
 .slogan span {
@@ -143,8 +141,7 @@ footer {
     font-family: 'Krona One', sans-serif;
     color: black;
     background-color: transparent;
-    margin-bottom: 30px;
-    width: 70%;
+    margin-bottom: 1.5rem;
     /* Temporary border */
     border: 1px solid green;
 }
