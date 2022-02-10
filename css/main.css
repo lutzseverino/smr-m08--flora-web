@@ -147,3 +147,8 @@ footer {
     /* Temporary border */
     border: 1px solid red;
 }
+
+.logo-width {
+    width: 146.244px;
+    height: 40px;
+}
