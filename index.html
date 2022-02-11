@@ -7,26 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/favicon.svg">
     <link rel="stylesheet" href="css/main.css">
+    <script src="blocks/navbar.js" type="text/javascript" defer></script>
+    <script src="blocks/footer.js" type="text/javascript" defer></script>
 </head>
+
 
 <body>
     <!-- Header -->
     <header>
-        <nav>
-            <div>
-                <img class="logo" onclick="window.location.href='https:\/\/getflora.cat\/';" src="images/flora-logo.svg" alt="Flora">
-            </div>
-            <div>
-                <ul class="links">
-                    <li><a href="/contribute.html">Contribute</a></li>
-                    <li><a href="/support.html">Support</a></li>
-                    <li><a href="/team.html">Our team</a></li>
-                </ul>
-            </div>
-            <div>
-                <button class="rounded accent-color button" onclick="window.location.href='https:\/\/discord.com\/';">Add to Discord</button>
-            </div>
-        </nav>
+        <block-navbar></block-navbar>
     </header>
 
     <!-- Headline -->
@@ -41,33 +30,5 @@
     </div>
 
     <!-- Footer -->
-    <footer class="flex-row" section="small">
-        <div class="flex-column footer-title">
-            <div class="slogan">
-                <h3>Let your community grow, the <span>b</span>right way</h3>
-            </div>
-        </div>
-
-        <div class="flex-row footer-navigation">
-            <div class="flex-column">
-                <div>
-                    <h4>Product</h4>
-                </div>
-                <ul>
-                    <li><a href="https://discord.com">Add to Discord</a></li>
-                    <li><a href="#">Learn more</a></li>
-                </ul>
-            </div>
-
-            <div class="flex-column">
-                <div>
-                    <h4>Policies</h4>
-                </div>
-                <ul>
-                    <li><a href="policies/privacy.html">Privacy</a></li>
-                    <li><a href="policies/purchases.html">Purchases</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+    <block-footer></block-footer>
 </body>
