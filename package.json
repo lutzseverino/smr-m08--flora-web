@@ -1,0 +1,24 @@
+{
+  "name": "flora-landing",
+  "version": "1.0.0",
+  "description": "The landing page for Flora",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frequential/flora-landing.git"
+  },
+  "author": "Jasper Lutz Severino",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/frequential/flora-landing/issues"
+  },
+  "homepage": "https://github.com/frequential/flora-landing#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0"
+  }
+}
