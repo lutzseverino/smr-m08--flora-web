@@ -162,6 +162,10 @@ footer {
     gap: 2rem;
 }
 
+.footer-navigation ul {
+    list-style: none;
+}
+
 .footer-navigation li a {
     color: white;
 }
