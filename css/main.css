@@ -2,7 +2,7 @@
 
 /* Import fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 /* Import CSS files */
@@ -32,11 +32,15 @@ a {
     background-color: transparent;
 }
 
+ul {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+}
+
 li,
 a {
     font-family: 'Exo', sans-serif;
     text-decoration: none;
-    list-style: none;
 }
 
 
@@ -99,29 +103,6 @@ nav> :last-child {
 }
 
 
-/* Footer */
-
-footer {
-    background-color: black;
-    color: white;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer-navigation {
-    justify-content: space-around;
-    gap: 2rem;
-}
-
-.footer-navigation li a {
-    color: white;
-}
-
-.footer-navigation li a:hover {
-    text-decoration: underline;
-}
-
-
 /* Call-to-action headline */
 
 .headline {
@@ -142,8 +123,9 @@ footer {
     color: black;
     background-color: transparent;
     margin-bottom: 1.5rem;
+    width: clamp(35ch, 70%, 60ch);
     /* Temporary border */
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .actions {
@@ -153,10 +135,37 @@ footer {
     text-align: center;
     background-color: transparent;
     /* Temporary border */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .logo-width {
     width: 146.244px;
     height: 40px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-title {
+    width: 40ch;
+}
+
+.footer-navigation {
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.footer-navigation li a {
+    color: white;
+}
+
+.footer-navigation li a:hover {
+    text-decoration: underline;
 }
