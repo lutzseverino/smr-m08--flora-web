@@ -2,7 +2,7 @@ import buttonClasses from "../Button/builder";
 
 const NavBar = () => {
     return (
-        <nav className="w-screen mr-auto ml-auto pt-4 pb-4 pl-9 pr-9
+        <nav className="pt-4 pb-4 pl-9 pr-9
                         flex flex-row justify-between items-center
                         bg-gray-200 dark:bg-gray-900">
 
@@ -45,7 +45,7 @@ const NavBar = () => {
 
 const MobileNavBar = () => (
     <div className="flex flex-col gap-8 fixed top-0 right-0 backdrop-contrast-50
-                    h-screen w-4/5 p-8
+                    h-full w-4/5 p-8
                     bg-gray-300 dark:bg-gray-700
                     translate-x-full md:translate-x-full transition-transform
                     mobile-nav-bar">
