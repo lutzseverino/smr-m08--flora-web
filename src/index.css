@@ -5,6 +5,14 @@
 
 @layer base {
 
+  * {
+    @apply dark:text-white
+  }
+
+  html {
+    @apply scroll-smooth
+  }
+  
   body {
     @apply dark:bg-black;
   }

@@ -2,11 +2,11 @@ const Footer = () => {
     return (
         <footer className="w-screen pt-14 pb-14 pl-9 pr-9 
                            flex flex-row justify-between items-center
-                           dark:bg-gray-900 dark:text-white">
+                           bg-gray-200 dark:bg-gray-900 border-t border-gray-800">
 
             <div className="hidden md:inline-block">
                 <div>
-                    <h3>Let your community grow, the <span className="opacity-50">b</span>right way</h3>
+                    <h3>Let your community grow, the bright way</h3>
                 </div>
             </div>
 
