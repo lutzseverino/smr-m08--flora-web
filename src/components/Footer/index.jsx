@@ -18,8 +18,8 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col">
                         <ul className="list-">
-                            <li><a href="index.html">Add to Discord</a></li>
-                            <li><a href="index.html">Learn more</a></li>
+                            <li><a href="https://discord.com">Add to Discord</a></li>
+                            <li><a href="/#features">Learn more</a></li>
                         </ul>
                     </div>
                 </div>
@@ -29,8 +29,8 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col">
                         <ul>
-                            <li><a href="index.html">Privacy</a></li>
-                            <li><a href="index.html">Purchases</a></li>
+                            <li><a href="/privacy">Privacy</a></li>
+                            <li><a href="/purchases">Purchases</a></li>
                         </ul>
                     </div>
                 </div>
