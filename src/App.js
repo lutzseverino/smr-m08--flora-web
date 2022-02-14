@@ -1,11 +1,13 @@
-import Navbar from "./components/NavBar";
+import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Main from "./Main";
 
 function App() {
     return ( 
-        <div className ="">
-            <header className="">
-                <Navbar></Navbar>
+        <div>
+            <header>
+                <NavBar></NavBar>
+                    <Main/>      
                 <Footer></Footer>
             </header>
         </div>
