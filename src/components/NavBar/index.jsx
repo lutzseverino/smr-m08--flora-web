@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <nav className="pt-4 pb-4 pl-9 pr-9
                         flex flex-row justify-between items-center
-                        bg-gray-200 dark:bg-gray-900">
+                        bg-gray-100 dark:bg-gray-900">
 
             {/* Logo */}
             <div className="md:basis-0 md:grow flex">

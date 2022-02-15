@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <footer className="pt-14 pb-14 pl-9 pr-9 
                            flex flex-row justify-between items-center
-                           bg-gray-200 dark:bg-gray-900 border-t border-gray-800">
+                           bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
 
             <div className="hidden md:inline-block">
                 <div>
