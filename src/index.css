@@ -33,7 +33,7 @@
   }
 
   h2 {
-    @apply font-bold text-4xl;
+    @apply font-bold text-3xl;
   }
 
   h3 {
