@@ -22,6 +22,8 @@ function Home() {
                     </div>
                 </div>
 
+                <div id="features"></div>
+
                 {/* Features */}
                 <Feature 
                     title="Create and manage community objectives" 

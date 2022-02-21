@@ -6,4 +6,3 @@ export default class Contribute extends MdArticle {
         super(props, "https://raw.githubusercontent.com/frequential/flora/master/CONTRIBUTING.md");
     }
 }
-
