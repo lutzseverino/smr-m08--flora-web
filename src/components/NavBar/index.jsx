@@ -63,7 +63,7 @@ const MobileNavBar = () => (
         <div className="list-none
                         flex flex-col gap-8">
             <a href="/contribute">Contribute</a>
-            <a href="/support">Support</a>
+            <a href="https://discord.com/">Need help?</a>
             <a href="/team">Our team</a>
             <a href="https://github.com/frequential/flora">Source code</a>
         </div>
