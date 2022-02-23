@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Contribute from './pages/Contribute';
 import Privacy from './pages/Privacy';
+import Purchases from './pages/Purchases';
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
             <Route exact path='/' element={<Home />}></Route>
             <Route exact path='/contribute' element={<Contribute />}></Route>
             <Route exact path='/privacy' element={<Privacy />}></Route>
+            <Route exact path='/purchases' element={<Purchases />}></Route>
         </Routes>
     </Router>
   );
