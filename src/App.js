@@ -1,17 +1,18 @@
+import React, { Suspense } from 'react';
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Main from "./Main";
 
-function App() {
+export default function App() {
     return ( 
-        <div>
-            <header>
-                <NavBar></NavBar>
-                    <Main />
-                <Footer></Footer>
-            </header>
-        </div>
+        <Suspense fallback="loading">
+            <div>
+                <header>
+                    <NavBar></NavBar>
+                        <Main />
+                    <Footer></Footer>
+                </header>
+            </div>
+        </Suspense>
     );
 }
-
-export default App;

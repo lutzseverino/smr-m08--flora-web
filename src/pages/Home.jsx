@@ -1,6 +1,9 @@
 import buttonClasses from "../components/Button/builder";
 
+import { useTranslation } from 'react-i18next';
+
 function Home() {
+    const { t } = useTranslation();
     return ( 
         <div>
             <header>
@@ -12,13 +15,13 @@ function Home() {
 
                     {/* Slogan */}
                     <div className="pb-8">
-                        <h1>Let your community grow, the <span className=" bg-blue text-green dark:text-blue dark:bg-green">b</span>right way</h1>
+                        <h1>{t('commons.slogan_first')}<span className=" bg-blue text-green dark:text-blue dark:bg-green">{t('commons.slogan_accent')}</span>{t('commons.slogan_final')}</h1>
                     </div>
 
                     {/* Actions */}
                     <div className="flex flex-col gap-4 md:flex-row md:gap-8 ">
-                        <a href="https://discord.com"><button className={buttonClasses({type: 'accent'})}>Add to Discord</button></a>
-                        <a href="#features"><button className={buttonClasses({type: 'default'})}>Learn more</button></a>
+                        <a href="https://discord.com"><button className={buttonClasses({type: 'accent'})}>{t('commons.cta')}</button></a>
+                        <a href="#features"><button className={buttonClasses({type: 'default'})}>{t('commons.learn_more')}</button></a>
                     </div>
                 </div>
 
@@ -26,8 +29,8 @@ function Home() {
 
                 {/* Features */}
                 <Feature 
-                    title="Create and manage community objectives" 
-                    description="Flora provides pre-defined objectives but also gives you the ability to create custom ones, keeping your community busy with whatever fits best!" 
+                    title={t('home.features.objectives_title')}
+                    description={t('home.features.objectives_desc')} 
                     image={
                         <svg width="200" height="200" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
                             <rect x="107.036" y="21" width="150" height="150" transform="rotate(35 107.036 21)" fill="#EB459E"/>
@@ -36,8 +39,8 @@ function Home() {
                     }
                 />
                 <Feature 
-                    title="Show off your reputation" 
-                    description="Having Flora on your guild for a while also ensures to new users you're the real deal! The more time passes, the more public reputation you gain." 
+                    title={t('home.features.reputation_title')}
+                    description={t('home.features.reputation_desc')} 
                     position="second" 
                     image={
                         <svg className="hidden sm:inline-block" width="200" height="200" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
@@ -47,8 +50,8 @@ function Home() {
                     }
                 />
                 <Feature 
-                    title="Make the leaderboards count" 
-                    description="Use all the tools Flora provides to the extreme! Give out prizes to top users or even organize events at the end of an objective." 
+                    title={t('home.features.leaderboards_title')}
+                    description={t('home.features.leaderboards_desc')}
                     image={
                         <svg className="hidden sm:inline-block" width="200" height="200" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
                             <ellipse cx="175" cy="75.0001" rx="75" ry="75.0001" fill="#FEE75C"/>

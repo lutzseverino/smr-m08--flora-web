@@ -1,13 +1,16 @@
 import buttonClasses from "../Button/builder";
 
+import { useTranslation } from 'react-i18next';
+
 const NavBar = () => {
+    const { t } = useTranslation();
     return (
         <nav className="pt-4 pb-4 pl-9 pr-9
                         flex flex-row justify-between items-center
                         bg-gray-100 dark:bg-gray-900">
 
             {/* Logo */}
-            <div className="md:basis-0 md:grow flex">
+            <div className="lg:basis-0 lg:grow flex">
                 <a href="/">
                     <svg className="fill-blue dark:fill-green" height="48" width="48" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
                         <path d="M54.85 12.2C54.4 10.875 53.125 10 51.7 10C51.625 10 51.55 10 51.475 10H49L48.225 7.575C47.875 6.075 46.525 5 45 5C43.475 5 42.125 6.075 41.775 7.6L41 10H38.55C38.475 10 38.4 10 38.325 10C36.9 10 35.625 10.875 35.175 12.2C34.7 13.6 35.275 15.125 36.575 15.9L38.75 17.2L37.75 20.3C37.175 21.75 37.65 23.425 38.875 24.35C39.45 24.775 40.15 25 40.825 25C41.6 25 42.35 24.725 42.975 24.2L45 22.45L47.025 24.2C47.65 24.725 48.4 25 49.175 25C49.85 25 50.55 24.775 51.125 24.35C52.375 23.425 52.825 21.75 52.25 20.3L51.275 17.2L53.45 15.9C54.725 15.125 55.3 13.6 54.85 12.2ZM45 17.5C43.625 17.5 42.5 16.375 42.5 15C42.5 13.625 43.625 12.5 45 12.5C46.375 12.5 47.5 13.625 47.5 15C47.5 16.375 46.375 17.5 45 17.5Z"/>
@@ -18,23 +21,23 @@ const NavBar = () => {
 
             {/* Primary naviation links */}
             <div className="list-none
-                            hidden md:flex flex-row gap-8">
-                <a href="/contribute">Contribute</a>
-                <a href="https://discord.com">Need help?</a>
-                <a href="/team">Our team</a>
-                <a href="https://github.com/frequential/flora">Source code</a>
+                            hidden lg:flex flex-row gap-8">
+                <a href="/contribute">{t('navbar.contribute')}</a>
+                <a href="https://discord.com">{t('navbar.need_help')}</a>
+                <a href="/team">{t('navbar.team')}</a>
+                <a href="https://github.com/frequential/flora">{t('navbar.source')}</a>
             </div>
 
-            <div className="md:basis-0 md:grow flex flex-row-reverse items-center gap-4">
+            <div className="lg:basis-0 lg:grow flex flex-row-reverse items-center gap-4">
                 {/* Menu for mobile */}
-                <div className="md:hidden inline-block
+                <div className="lg:hidden inline-block
                                 mt-auto mb-auto">
                     <button onClick={MobileMenuToggle}><i className="material-icons menu"></i></button>
                 </div>
 
                 {/* Call-to-action */}
                 <div>
-                    <a href="https://discord.com"><button className={buttonClasses({type: 'accent'})}>Add to Discord</button></a>
+                    <a href="https://discord.com"><button className={buttonClasses({type: 'accent'})}>{t('commons.cta')}</button></a>
                 </div>
             </div>
 
@@ -47,7 +50,7 @@ const MobileNavBar = () => (
     <div className="flex flex-col gap-8 fixed top-0 right-0 backdrop-contrast-50
                     h-full w-4/5 p-8
                     bg-gray-300 dark:bg-gray-700
-                    translate-x-full md:translate-x-full transition-transform
+                    translate-x-full lg:translate-x-full transition-transform
                     mobile-nav-bar">
 
         {/* Logo */}
@@ -76,9 +79,9 @@ const MobileNavBar = () => (
 )
 
 const MobileMenuToggle = () => {
-    const menu = document.querySelector(".mobile-nav-bar");
+    const MENU = document.querySelector(".mobile-nav-bar");
 
-    menu.classList.toggle("translate-x-full");
+    MENU.classList.toggle("translate-x-full");
 }
 
 export default NavBar;

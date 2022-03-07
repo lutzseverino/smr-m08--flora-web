@@ -1,0 +1,39 @@
+{
+    "commons": {
+      "slogan_first": "Permet que la teva comunitat creixi ",
+      "slogan_accent": "correctament",
+      "slogan_final": "",
+      "slogan_full": "Permet que la teva comunitat creixi correctament",
+
+      "cta": "Afegir a Discord",
+      "learn_more": "Veure característiques",
+
+      "language": "Idioma"
+    },
+
+    "navbar": {
+        "contribute": "Contribuir",
+        "need_help": "Necessites ajuda?",
+        "team": "El nostre equip",
+        "source": "Codi font"
+    },
+
+    "home": {
+        "features": {
+            "objectives_title": "Crea i administra objectius comunitaris",
+            "objectives_desc": "Flora proporciona objectius predefinits, però també ofereix la possibilitat de crear objectius personalitzats, manté la teva comunitat ocupada el més adequat!",
+            "reputation_title": "Presumeix de la teva reputació",
+            "reputation_desc": "Tenir Flora al teu servidor per un temps també assegura als nous usuaris que ets l'autèntic! Com més temps passa, més reputació pública guanyes",
+            "leaderboards_title": "Fes que el marcador compti",
+            "leaderboards_desc": "Fes servir totes les eines que ofereix Flora a l'extrem! Lliura premis als millors usuaris o fins i tot organitza events al final d'un objectiu" 
+        }
+    },
+
+    "footer": {
+        "product": "Producte",
+        "policies": "Polítiques",
+            "privacy": "Privadesa",
+            "purchases": "Compres",
+            "cookies": "Cookies"
+    }
+}
