@@ -1,15 +1,16 @@
 import clb from 'clb'
 
 const buttonBuilder = clb({
-  base: 'font-exo rounded-full p-2 pl-6 pr-6 shadow-inner-component dark:shadow-inner-dark-component',
+  base: 'font-exo rounded-full pl-6 pr-6 shadow-inner-component dark:shadow-inner-dark-component',
   defaultVariants: {
     type: 'default',
     disabled: false,
   },
   variants: {
     type: {
-        accent: 'text-white bg-blue dark:bg-green dark:text-black',
-        default: 'text-black bg-gray-200 dark:bg-gray-700 dark:text-gray-300',
+        accent: 'p-2 text-white bg-blue dark:bg-green dark:text-black',
+        dropdown: 'p-1 text-black bg-gray-200 dark:bg-gray-700 dark:text-gray-300',
+        default: 'p-2 text-black bg-gray-200 dark:bg-gray-700 dark:text-gray-300',
     },
     disabled: {
         true: 'cursor-not-allowed opacity-70',
