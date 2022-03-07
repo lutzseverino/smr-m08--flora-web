@@ -6,6 +6,12 @@ import Contribute from './pages/Contribute';
 import Privacy from './pages/Privacy';
 import Purchases from './pages/Purchases';
 
+if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  document.documentElement.classList.add('dark')
+} else {
+  document.documentElement.classList.remove('dark')
+}
+
 const Main = () => {
   return (
     <Router>
