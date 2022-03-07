@@ -30,6 +30,11 @@
         }
     },
 
+    "team": {
+        "explenation": "Aunque Flora es mantenido por un desarrollador, la página web fue creada con ayuda de múltiples personas. La página misma fue creada con React y Tailwind.",
+        "landing_source": "Revisa la fuente de la página web aquí"
+    },
+
     "footer": {
         "product": "Product",
         "policies": "Políticas",

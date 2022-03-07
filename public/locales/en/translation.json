@@ -30,6 +30,11 @@
         }
     },
 
+    "team": {
+        "explenation": "Although Flora itself is maintained by one developer, the landing page was made with the help of multiple people. The website itself was built with React and Tailwind.",
+        "landing_source": "Visit the website source here"
+    },
+
     "footer": {
         "product": "Product",
         "policies": "Policies",

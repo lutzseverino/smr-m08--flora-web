@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Contribute from './pages/Contribute';
 import Privacy from './pages/Privacy';
 import Purchases from './pages/Purchases';
+import Team from './pages/Team';
 
 if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
   document.documentElement.classList.add('dark')
@@ -20,6 +21,7 @@ const Main = () => {
             <Route exact path='/contribute' element={<Contribute />}></Route>
             <Route exact path='/privacy' element={<Privacy />}></Route>
             <Route exact path='/purchases' element={<Purchases />}></Route>
+            <Route exact path='/team' element={<Team />}></Route>
         </Routes>
     </Router>
   );

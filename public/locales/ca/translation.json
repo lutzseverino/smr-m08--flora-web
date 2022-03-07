@@ -30,6 +30,11 @@
         }
     },
 
+    "team": {
+        "explenation": "Encara que Flora és mantingut per un desenvolupador, la pàgina web ha sigut creada amb ajuda de múltiples persones. La pàgina mateixa va ser creada amb React i Tailwind.",
+        "landing_source": "Revisa el codi font de la pàgina web aquí"
+    },
+
     "footer": {
         "product": "Producte",
         "policies": "Polítiques",
