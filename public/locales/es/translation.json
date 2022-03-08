@@ -1,0 +1,45 @@
+{
+    "commons": {
+      "slogan_first": "Permite que tu comunidad crezca ",
+      "slogan_accent": "correctamente",
+      "slogan_final": "",
+      "slogan_full": "Permite que tu comunidad crezca correctamente",
+
+      "cta": "Añadir a Discord",
+      "learn_more": "Ver características",
+
+      "language": "Idioma",
+      "theme": "Tema"
+    },
+
+    "navbar": {
+        "contribute": "Contribuye",
+        "need_help": "¿Necesitas ayuda?",
+        "team": "Nuestro equipo",
+        "source": "Código fuente"
+    },
+
+    "home": {
+        "features": {
+            "objectives_title": "Crear y administra objetivos comunitarios",
+            "objectives_desc": "Flora proporciona objetivos predefinidos, pero también te brinda la posibilidad de crear objetivos personalizados, ¡mantén a tu comunidad ocupada lo más adecuado!",
+            "reputation_title": "Presume de tu reputación",
+            "reputation_desc": "¡Tener a Flora en tu servidor por un tiempo también asegura a los nuevos usuarios que eres el auténtico! Cuanto más tiempo pasa, más reputación pública ganas",
+            "leaderboards_title": "Haz que el marcador cuente",
+            "leaderboards_desc": "¡Usa todas las herramientas que ofrece Flora al extremo! Entrega premios a los mejores usuarios o incluso organiza eventos al final de un objetivo"
+        }
+    },
+
+    "team": {
+        "explenation": "Aunque Flora es mantenido por un desarrollador, la página web fue creada con ayuda de múltiples personas. La página misma fue creada con React y Tailwind.",
+        "landing_source": "Revisa la fuente de la página web aquí"
+    },
+
+    "footer": {
+        "product": "Product",
+        "policies": "Políticas",
+            "privacy": "Privacidad",
+            "purchases": "Compras",
+            "cookies": "Cookies"
+    }
+}
