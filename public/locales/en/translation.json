@@ -51,7 +51,7 @@
 
     "articles": {
         "privacy": "https://raw.githubusercontent.com/frequential/flora/master/policies/en/PRIVACY.md",
-        "contribute": "https://raw.githubusercontent.com/frequential/flora/master/policies/en/CONTRIBUTE.md",
+        "contribute": "https://raw.githubusercontent.com/frequential/flora/master/policies/en/CONTRIBUTING.md",
         "purchases": "https://raw.githubusercontent.com/frequential/flora-landing/master/policies/en/PURCHASES.md",
         "cookies": "https://raw.githubusercontent.com/frequential/flora-landing/master/policies/en/COOKIES.md"
     }
