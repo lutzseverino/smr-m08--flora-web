@@ -33,8 +33,7 @@ function Team() {
             </div>
 
             <div className='flex md:flex-row flex-col gap-4 justify-between'>
-                <a href='https://es.dinahosting.com/'><img height="48" width="192" src={dinahosting} className='rounded-lg shadow-inner-component dark:shadow-inner-dark-component invert dark:invert-0' /></a>
-                <a href='https://wapps.cat'><img height="48" width="192" src={wappscat} className='rounded-lg shadow-inner-component dark:shadow-inner-dark-component invert dark:invert-0' /></a>
+                <a href='https://wapps.cat'><img height="48" width="192" src={wappscat} className='rounded-lg shadow-inner-component dark:shadow-inner-dark-component invert dark:invert-0' alt="wapps logo"/></a>
             </div>
         </div>
     )
