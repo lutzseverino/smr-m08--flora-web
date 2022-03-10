@@ -3,12 +3,8 @@ import React from 'react';
 
 export default class MdArticle extends React.Component {
 
-    mdLocation = null;
-
-    constructor(props, mdLocation) {
+    constructor(props) {
         super(props);
-
-        this.mdLocation = mdLocation;
 
         this.state = {
             isLoaded: false,
@@ -17,7 +13,7 @@ export default class MdArticle extends React.Component {
     }
 
     componentDidMount() {
-        fetch(this.mdLocation)
+        fetch(this.props.article)
         .then(response => response.text()
         .then((data) => { 
             this.setState( { isLoaded: true, article: data } )
@@ -36,6 +32,7 @@ export default class MdArticle extends React.Component {
         }
 
         return (
+            
             <div className="max-w-[70ch] p-8 md:pt-32 md:pb-32 ml-auto mr-auto">
                 {result}
             </div>

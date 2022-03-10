@@ -1,15 +1,17 @@
 {
     "commons": {
-      "slogan_first": "Permet que la teva comunitat creixi ",
-      "slogan_accent": "correctament",
-      "slogan_final": "",
-      "slogan_full": "Permet que la teva comunitat creixi correctament",
+        "accept": "Aceptar",
 
-      "cta": "Afegir a Discord",
-      "learn_more": "Veure característiques",
+        "slogan_first": "Permet que la teva comunitat creixi ",
+        "slogan_accent": "correctament",
+        "slogan_final": "",
+        "slogan_full": "Permet que la teva comunitat creixi correctament",
 
-      "language": "Idioma",
-      "theme": "Tema"
+        "cta": "Afegir a Discord",
+        "learn_more": "Veure característiques",
+
+        "language": "Idioma",
+        "theme": "Tema"
     },
 
     "navbar": {
@@ -35,11 +37,22 @@
         "landing_source": "Revisa el codi font de la pàgina web aquí"
     },
 
+    "cookies": {
+        "explenation": "Aquest lloc web utilitza cookies per emmagatzemar informació bàsica, com la configuració de l'usuari. "
+    },
+
     "footer": {
         "product": "Producte",
         "policies": "Polítiques",
-            "privacy": "Privadesa",
+            "privacy": "Privadesa amb Flora",
             "purchases": "Compres",
             "cookies": "Cookies"
+    },
+    
+    "articles": {
+        "privacy": "https://raw.githubusercontent.com/frequential/flora/master/policies/ca/PRIVACY.md",
+        "contribute": "https://raw.githubusercontent.com/frequential/flora/master/policies/ca/CONTRIBUTE.md",
+        "purchases": "https://raw.githubusercontent.com/frequential/flora-landing/master/policies/ca/PURCHASES.md",
+        "cookies": "https://raw.githubusercontent.com/frequential/flora-landing/master/policies/ca/COOKIES.md"
     }
 }

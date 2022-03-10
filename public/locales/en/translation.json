@@ -1,15 +1,17 @@
 {
     "commons": {
-      "slogan_first": "Let your community grow, the ",
-      "slogan_accent": "b",
-      "slogan_final": "right way",
-      "slogan_full": "Let your community grow, the bright way",
+        "accept": "Accept",
 
-      "cta": "Add to Discord",
-      "learn_more": "Learn more",
+        "slogan_first": "Let your community grow, the ",
+        "slogan_accent": "b",
+        "slogan_final": "right way",
+        "slogan_full": "Let your community grow, the bright way",
 
-      "language": "Language",
-      "theme": "Theme"
+        "cta": "Add to Discord",
+        "learn_more": "Learn more",
+
+        "language": "Language",
+        "theme": "Theme"
     },
 
     "navbar": {
@@ -35,11 +37,22 @@
         "landing_source": "Visit the website source here"
     },
 
+    "cookies": {
+        "explenation": "This website uses cookies to store basic information, such as user settings."
+    },
+
     "footer": {
         "product": "Product",
         "policies": "Policies",
-            "privacy": "Privacy",
+            "privacy": "Privacy with Flora",
             "purchases": "Purchases",
             "cookies": "Cookies"
+    },
+
+    "articles": {
+        "privacy": "https://raw.githubusercontent.com/frequential/flora/master/policies/en/PRIVACY.md",
+        "contribute": "https://raw.githubusercontent.com/frequential/flora/master/policies/en/CONTRIBUTE.md",
+        "purchases": "https://raw.githubusercontent.com/frequential/flora-landing/master/policies/en/PURCHASES.md",
+        "cookies": "https://raw.githubusercontent.com/frequential/flora-landing/master/policies/en/COOKIES.md"
     }
 }
