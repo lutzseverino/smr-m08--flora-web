@@ -1,8 +1,5 @@
-import MdArticle from "../components/MdArticle";
+import MdArticle from "../../components/MdArticle";
 
 export default class Purchases extends MdArticle {
 
-    constructor(props) {
-        super(props);
-    }
 }
