@@ -20,16 +20,21 @@ export default class MdArticle extends React.Component {
         }))
     }
 
+    componentDidUpdate(prevProps) {
+        if (this.props.article !== prevProps.article) {
+            this.componentDidMount();
+        }
+    }    
+
     render() {
         const { isLoaded, article } = this.state;
         
         var result;
 
-        if (!isLoaded) {
+        if (!isLoaded)
             result = <p>Retrieving article... please wait. Taking too long? Reload the page.</p>
-        } else {
+        else
             result = <ReactMarkdown>{article}</ReactMarkdown>
-        }
 
         return (
             
