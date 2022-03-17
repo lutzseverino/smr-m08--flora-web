@@ -4,7 +4,6 @@ import jasper from "../images/jasper.png"
 import marc from "../images/marc.png"
 import nicolas from "../images/nicolas.png"
 
-import dinahosting from "../images/dinahosting.jpg"
 import wappscat from "../images/wappscat.jpg"
 
 function Team() {
