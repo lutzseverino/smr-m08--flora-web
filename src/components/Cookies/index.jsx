@@ -9,7 +9,7 @@ const Cookies = () => {
         return (
             <div id="cookies-notification" className="fixed bottom-0 w-full h-16 p-4
                             dark:bg-white bg-black
-                            flex flex-row justify-between items-center">
+                            flex flex-row justify-between items-center z-50">
                 <div>
                     <p className="invert">{t('cookies.explenation')}</p>
                 </div>

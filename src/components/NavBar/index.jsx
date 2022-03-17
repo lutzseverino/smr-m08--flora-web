@@ -51,7 +51,7 @@ const MobileNavBar = () => (
                     h-full w-4/5 p-8
                     bg-gray-300 dark:bg-gray-700
                     translate-x-full lg:translate-x-full transition-transform
-                    mobile-nav-bar">
+                    mobile-nav-bar z-50">
 
         {/* Logo */}
         <div className="flex flex-row justify-between">
