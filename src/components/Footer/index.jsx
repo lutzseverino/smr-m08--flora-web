@@ -28,9 +28,9 @@ const Footer = () => {
                                             p-1 mb-2 w-full rounded-lg 
                                             text-black bg-gray-200 dark:bg-gray-700 dark:text-gray-300
                                             shadow-inner-component dark:shadow-inner-dark-component">
-                                    <button onClick={() => changeLanguage('en')}>English</button>
-                                    <button onClick={() => changeLanguage('es')}>Español</button>
-                                    <button onClick={() => changeLanguage('ca')}>Català</button>
+                                    <button onClick={() => changeLanguage('en-US')}>English</button>
+                                    <button onClick={() => changeLanguage('es-ES')}>Español</button>
+                                    <button onClick={() => changeLanguage('ca-ES')}>Català</button>
                             </div>
                             <button className={buttonClasses({type: 'dropdown'})} onClick={
                                 () => ["flex", "hidden"].map(v => document.querySelector("#languages").classList.toggle(v))

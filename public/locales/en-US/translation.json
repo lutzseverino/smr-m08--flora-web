@@ -1,0 +1,58 @@
+{
+    "commons": {
+        "accept": "Accept",
+
+        "slogan_first": "Let your community grow, the ",
+        "slogan_accent": "b",
+        "slogan_final": "right way",
+        "slogan_full": "Let your community grow, the bright way",
+
+        "cta": "Add to Discord",
+        "learn_more": "Learn more",
+
+        "language": "Language",
+        "theme": "Theme"
+    },
+
+    "navbar": {
+        "contribute": "Contribute",
+        "need_help": "Need help?",
+        "team": "Our team",
+        "source": "Source code"
+    },
+
+    "home": {
+        "features": {
+            "objectives_title": "Create and manage community objectives",
+            "objectives_desc": "Flora provides pre-defined objectives but also gives you the ability to create custom ones, keeping your community busy with whatever fits best!",
+            "reputation_title": "Show off your reputation",
+            "reputation_desc": "Having Flora on your guild for a while also ensures to new users you're the real deal! The more time passes, the more public reputation you gain.",
+            "leaderboards_title": "Make the leaderboards count",
+            "leaderboards_desc": "Use all the tools Flora provides to the extreme! Give out prizes to top users, or even organize events at the end of an objective."
+        }
+    },
+
+    "team": {
+        "explenation": "Although Flora itself is maintained by one developer, the landing page was made with the help of multiple people. The website itself was built with React and Tailwind.",
+        "landing_source": "Visit the website source here"
+    },
+
+    "cookies": {
+        "explenation": "This website uses cookies to store basic information, such as user settings."
+    },
+
+    "footer": {
+        "product": "Product",
+        "policies": "Policies",
+            "privacy": "Privacy with Flora",
+            "purchases": "Purchases",
+            "cookies": "Cookies"
+    },
+
+    "articles": {
+        "privacy": "https://raw.githubusercontent.com/frequential/flora/master/policies/en/PRIVACY.md",
+        "contribute": "https://raw.githubusercontent.com/frequential/flora/master/policies/en/CONTRIBUTING.md",
+        "purchases": "https://raw.githubusercontent.com/frequential/flora-landing/master/policies/en/PURCHASES.md",
+        "cookies": "https://raw.githubusercontent.com/frequential/flora-landing/master/policies/en/COOKIES.md"
+    }
+}
